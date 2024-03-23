@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  Section 1 header */
+
+.home .navbar .navbar_logo img{
+    width: 100%;
+}
+.home .navbar .navbar_logo  {
+float: left;
+margin-left: 80px; 
+width: 15%;
+}
+
+.home .navbar .nav_list {
+float: left;
+width: 70%;
+}
+.home .navbar .nav_list .list{
+float: right;
+margin-top: 30px;
+margin-right: 25px;
+}
+.home .navbar .nav_list .list a {
+text-decoration: none;
+color: #ffffff;
+font-size: 18px;
+}
+.home .navbar .nav_list .list a:hover{
+    color: #8e7754;
+}
+
+.home .navbar .nav_list .clr{
+    clear: both;
+}
+
+.home{
+    background-image: url( ../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+}
+.home .home_content{
+    margin-left: 25px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 80px;
+}
+.home .home_content .btn{
+    padding: 20px; 
+    color: aliceblue; 
+    border: 1px rgb(255, 255, 255) solid;
+    margin: 10px;
+    border-radius: 5%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.home .home_content .learn_btn{
+    background-color:#8e7754;
+    border: 1px #8e7754 solid;
+
+}
+.home .home_content .contact_btn {
+    background-color: transparent;
+    border: 1px rgb(255, 255, 255) solid;
+
+}
+
+.home .home_content h1{
+    padding: 15px;
+    font-family: "Alegreya";
+    color: #ffffff;
+    font-size: 72px;
+}
+.home .home_content p {
+    padding: 15px;
+    margin: 10px;
+   font-family: "Alegreya";
+    color: #f9f3f3;
+    font-size: 24px;
+}
+
+.home .home_content .btn:hover{
+    background-color: white;
+    color: #000;
+}
+/*  Section 2 about */
+.about{
+    padding: 70px; 
+     margin: 30px; 
+}
+.about .about-img{
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.about .about-img img{
+    width: 100%;
+}
+
+.about .about-content {
+    display: inline-block;
+    width: 45%;
+    margin-left: 30px;
+}
+
+.about .about-content h3{
+    font-family: "Alegreya";
+    color: #000000;
+    font-weight: lighter;
+    font-size: 36px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.about .about-content .abou-content-p {
+    color: #252323;
+    font-size: 16px;
+    margin: 20px;
+}
+.about .about-content .about-lists{
+    padding-left: 25px;
+
+}
+.about .about-lists .about_list{
+    display: block; 
+
+}
+
+.about .about-lists .about_list .about_list_img img {
+    width: 100%;
+}
+.about .about-lists .about_list .about_list_img{   
+    border: 1px rgb(208, 191, 191) solid;
+    border-radius: 100%;
+    display: inline-block;
+    width: 40px;
+    margin: 8px;
+    vertical-align: middle;
+}
+.about .about-content .about-lists .about_list_content{
+    display: inline-block;
+    width: 45%;
+}
+.about .about-content .about-lists .about_list_content p{
+        color: #252323;
+        font-size: 16px;
+        padding-bottom: 5px;   
+}
+ /* Section 3 location  */
+
+.location{
+    background-color:rgb(240, 245, 245);
+     padding: 70px;
+}
+.location .location-content{
+    display: inline-block;
+    width: 45%;
+    margin-top: 50px;
+    margin-right: 70px;
+    margin-left: 40px;
+}
+.location .location-content h2{
+        font-family: "Alegreya";
+        color: #000000;
+        font-weight: lighter;
+        font-size: 40px;
+        margin-top: 60px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+}
+.location .location-content .location-content-p{
+        color: #252323;
+        font-size: 18px;
+        margin: 20px;
+}
+.location .location-img{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+.location .location-img img{
+    width: 100%;
+}
+/* Section 4 Our Baking */
+
+.ourBaking{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.ourBaking_content{
+    padding: 20px;
+}
+.ourBaking_content h3{
+            font-family: "Alegreya";
+            color: #000000;
+            font-size: 46px;
+            margin: 30px;
+}
+.OurBaking_content_p{
+    color: #252323;
+    font-size: 18px;
+    margin: 20px;
+}
+.OurBaking_parent {
+    width: 100%;
+}
+
+.Ourbaking_sec {
+    float: left;
+    width: 28%;
+    margin-top: 20px;
+}
+.Ourbaking_sec1{
+    margin-left: 120px;
+}
+
+.Ourbaking_sec_content h3{
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+    font-weight: lighter;
+    font-family: "Alegreya Sans";
+}
+.Ourbaking_sec_content p {
+    color: #252323;
+    font-size: 17px;
+    font-family: "Alegreya Sans";
+    margin: 20px;
+}
+.Ourbaking_sec_img {
+    padding: 20px;
+}
+.Ourbaking_sec_img img{
+    width: 100%;
+}
+.ourBaking .clr1{
+    clear: both;
+}
+.map-parent{
+    background-color: #f8f8f8;
+    padding: 40px;
+    padding: 1;
+
+}
+.map-content{
+    width: 40%;
+    float: left;
+    height: 450px;
+    vertical-align: top;
+    margin: 30px;
+    padding-left: 50px;
+}
+.map-parent .map-content h3{
+        font-family: "Alegreya";
+        color: #000000;
+        font-weight: lighter;
+        font-size: 40px;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+}
+.map-parent .map-content p{
+        color: #252323;
+        font-size: 16px;
+        margin: 20px;
+        width: 85%;
+        font-family: "Alegreya";
+    }
+.map-parent .map-content .map-content-span{
+    margin: 20px;
+    color: #252323;
+    font-size: 20px;
+    font-family: "Alegreya";
+}
+.map-parent .map-content .map-list-icon{
+    margin: 20px;
+}
+.map-parent .map-content .map-list-icon ul{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.map-parent .map-content .map-list-icon ul li i{
+        color: #f5ebeb;
+        background: #aaa;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        border-radius: 100%;
+        border: 1px #8e7754 solid;
+        font-size: 18px;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 8px;
+        background-color: #8e7754 ;
+}
+.map-parent .map-content .map-list-icon ul li .listIcons-span{
+    font-size: 17px;
+    margin: 20px;
+    color: #252323;
+    font-family: "Alegreya";
+}
+.map-parent .google-map{
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: 1px #f6f1f1;
+}
+.map-parent .clr{
+   clear: both;
+}
+/* footer section 6 */
+.footer-parent{
+    background-color: #454340;
+    color: #ebe8e8;
+    padding: 40px;
+    margin: 1;
+
+}
+.footer-parent .footer-sec1{
+    margin-left: 30px;
+}
+.footer-parent .footer-sec{
+    float: left;
+    width: 23%;
+    margin: 10px;
+    height: 400px;
+}
+.footer-parent .footer-sec4 .footer-list-icon .footerlistIcons-span1{
+    display: inline-block;
+    width: 85%;
+
+}
+.footer-parent .footer-sec2 ul , .footer-sec3 ul {
+    list-style-type: " > ";
+    margin: 20px;
+}
+.footer-parent .footer-sec4 ul{
+   list-style: none;
+   margin: 20px;
+
+}
+.footer-parent .footer-sec4 li  {
+    margin: 20px;
+    border-bottom: 1px rgb(167, 167, 167) solid;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+.footer-parent .footer-sec4 li i {
+    margin: 5px;
+    font-size: 14px;
+    display: inline-block;
+}
+.footer-parent .footer-sec4 li span {
+    font-size: 12px;
+    display: inline-block;
+}
+.footer-parent .footer-sec h3{
+        font-family: "Alegreya";
+        color: #ffffff;
+        font-weight: lighter;
+        font-size: 23px;
+        margin: 35px;
+}
+.footer-parent .footer-sec1 p{
+    font-size: 14px;
+    margin: 20px;
+    width: 75%;
+    font-family: "Alegreya";
+
+}
+.footer-parent .footer-sec2 li , .footer-sec3 li{
+  margin: 20px;
+  border-bottom: 1px rgb(167, 167, 167) solid;
+  font-size: 14px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+ }
+
+
+.footer-parent .clr{
+    clear: both;
+}
+
+/* Last Section */
+
+.last-sec{
+    background-color: #353330;
+    text-align: center;
+}
+.last-sec .last-sec-img  {
+    width: 350px;
+    margin: auto;
+    padding-top: 20px;
+}
+.last-sec .last-sec-img img{
+    width: 100%;
+}
+
+.last-sec .last-sec-span .last-sec-icons-span{
+   margin: 20px;
+   padding: 10px;
+   font-size: 18px;
+   color: #6b6262;
+   display: inline-block;
+}
+.last-sec .last-sec-icons .last-sec-icons-bottom{
+   
+    list-style: none;
+}
+.last-sec .last-sec-icons .last-sec-icons-bottom li{
+    display: inline-block;
+}
+
+.last-sec .last-sec-icons .last-sec-icons-bottom li i {
+    color: #edebe6;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px transparent solid;
+    font-size: 28px;
+    text-align: center;
+    padding: 7px;
+    margin: 5px;
+    margin-bottom: 30px;
+    background-color: #8c8a86;
+}
+.last-sec .last-sec-icons .last-sec-icons-bottom li i:hover{
+    background-color: #e5e890;
+    color: #056111;
+}
